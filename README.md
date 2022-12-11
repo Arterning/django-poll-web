@@ -15,22 +15,7 @@
  $ cd PollSystemDemo/mysite
  $ vi setting.py
 ```
-依据实际使用的数据库地址，用户，密码修改下面的配置
-
-```json
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mydatabase',
-        'USER': 'root',
-        'PASSWORD': 'coffee',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-    }
-}
-
-```
+依据实际使用的数据库地址，用户，密码
 
 4.建表
 
@@ -87,6 +72,4 @@ DATABASES = {
 
 浏览器访问 localhost:8000/admin
 按照第一步设置的用户名和密码登陆就可以使用管理系统了
-
-🎅🎅🎅🎅🎅
 
